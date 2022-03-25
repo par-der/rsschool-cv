@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+     background: linear-gradient(to right, #bd93f9, #ff79c6);
+     font-size: 20px;
+}
+.Name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Container{
+    margin: 30px;
+}
+.About{
+    margin: 30px;
+}
+ul{
+    padding: 10px;
+}
+.inner{
+    border: 3px solid;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    
+}
+ul li{
+    list-style-type: none;
+}
+.Code{
+    border: 3px solid;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+.list{
+    margin: 30px;
+}
+.Code P{
+    padding: 10px;
+}
+.Language{
+    width:none;
+    align-items: center;
+    display: flex;
+    flex-direction: column;  
+}
+.Language p{
+    padding: 10px;
+}
